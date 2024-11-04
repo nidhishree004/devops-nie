@@ -1,10 +1,11 @@
-PS C:\Users\Harshitha B\OneDrive\Desktop\devops-nie> git config --global user.name "nidhishree004"
-PS C:\Users\Harshitha B\OneDrive\Desktop\devops-nie> git config --global user.email "shrinid20@gmail.com"
-PS C:\Users\Harshitha B\OneDrive\Desktop\devops-nie> git clone https://github.com/nidhishree004/devops-nie.git
-Cloning into 'devops-nie'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-Receiving objects: 100% (3/3), done.
-PS C:\Users\Harshitha B\OneDrive\Desktop\devops-nie> cd devops-nie
-PS C:\Users\Harshitha B\OneDrive\Desktop\devops-nie\devops-nie> ls
+ git config --global user.name "nidhishree004"
+ git config --global user.email "shrinid20@gmail.com"
+ git clone https://github.com/nidhishree004/devops-nie.git
+cd devops-nie
+ ls
+ git add filename.txt
+ git add .
+ git commit -m "first commit"
+ git push origin main
+ git pull origin main
+ finished
